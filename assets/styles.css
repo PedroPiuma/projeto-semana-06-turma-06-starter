@@ -158,3 +158,31 @@ button {
   color: #091133;
   background-color: transparent;
 }
+
+.section-one .container .content {
+  height: 100vh;
+}
+
+.section-one .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-one-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  width: 445px;
+  height: 48px;
+}
+
+.sec-one-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  width: 445px;
+  height: 166px;
+}
