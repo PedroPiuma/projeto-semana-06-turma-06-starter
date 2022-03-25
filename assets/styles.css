@@ -159,11 +159,17 @@ button {
   background-color: transparent;
 }
 
-.section-one .container .content {
-  height: 100vh;
+#sec-one-content-one {
+  padding-top: 123.29px;
+}
+#sec-one-content-two {
+  padding-top: 222.47px;
+}
+#sec-one-content-three {
+  padding-top: 232.17px;
 }
 
-.section-one .container .content {
+.section-one .sec-one-container .sec-one-content {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -185,4 +191,9 @@ button {
   color: #6f7cb2;
   width: 445px;
   height: 166px;
+}
+
+.section-one {
+  width: 1110px;
+  margin: 0 auto;
 }
