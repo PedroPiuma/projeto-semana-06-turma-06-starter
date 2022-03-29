@@ -160,6 +160,46 @@ button {
   background-color: transparent;
 }
 
+
+#sec-one-content-one {
+  padding-top: 123.29px;
+}
+#sec-one-content-two {
+  padding-top: 222.47px;
+}
+#sec-one-content-three {
+  padding-top: 232.17px;
+}
+
+.section-one .sec-one-container .sec-one-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-one-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  width: 445px;
+  height: 48px;
+}
+
+.sec-one-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  width: 445px;
+  height: 166px;
+}
+
+.section-one {
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .price {
 
   background-image: url(./images/Rectangle.png);
@@ -312,3 +352,4 @@ button {
   align-items: center;
 
 }
+
