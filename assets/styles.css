@@ -62,6 +62,7 @@ button {
   color: #091133;
   margin-bottom: 20px;
 }
+
 .intro .intro-description {
   font-weight: 400;
   font-size: 18px;
@@ -159,6 +160,7 @@ button {
   background-color: transparent;
 }
 
+
 #sec-one-content-one {
   padding-top: 123.29px;
 }
@@ -197,3 +199,157 @@ button {
   width: 1110px;
   margin: 0 auto;
 }
+
+.price {
+
+  background-image: url(./images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 240px;
+  padding-bottom: 172px;
+
+}
+
+.price .price-title {
+
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #091133;
+
+}
+
+.price .price-description {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+
+}
+
+.price .container {
+
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.price .container .price-infos {
+
+  width: 600px;
+  text-align: center;
+}
+
+.price .container .price-infos .price-value {
+
+  font-size: 50px;
+  font-weight: 500;
+  color: #222F65;
+  margin-bottom: 0;
+  line-height: 66px;
+
+}
+
+.price .container .price-infos .description-kit {
+
+
+
+  font-size: 16px;
+  color: #37447E;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+  ;
+}
+
+.price .container .price-value-description {
+
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5D6970;
+
+
+}
+
+.footer {
+
+  height: 216px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E7ECFF;
+  padding-top: 60px;
+
+}
+
+.footer .container {
+
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer .container .line-divider-footer {
+
+  width: 100%;
+  height: 1px;
+  background: #CDD1D4;
+  margin-bottom: 20px;
+
+}
+
+.footer .container .footer-logo-company {
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer .container .footer-logo-company .name-company {
+
+
+  font-size: 14px;
+
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #939EA4;
+
+}
+
+.footer .container .links-social-media {
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.footer .container .links-social-media .social-links {
+
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+
